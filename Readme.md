@@ -7,4 +7,15 @@ Aqui vou compartilhar meus primeiros códigos, aprendizados e evolução como de
 
 ## 📄 Meu primeiro programa em C
 
-O arquivo `olamundo.c` contém meu primeiro programa em linguagem C, que imprime a mensagem clássica "Olá, mundo!" no terminal.
+O arquivo `olamundo.c` contém meu primeiro programa, que imprime "Olá, mundo!" no terminal.
+
+### Código:
+
+```c
+#include <stdio.h>
+
+int main() {
+  printf("Olá, mundo!\n");
+  return 0;
+}
+```
