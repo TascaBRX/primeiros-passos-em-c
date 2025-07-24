@@ -1,21 +1,13 @@
-# 👋 Olá!
+# 👨‍💻 Primeiros Passos em C
 
-Este repositório foi criado para documentar a minha trajetória estudando programação.  
-Iniciei o curso de **Análise e Desenvolvimento de Sistemas (ADS)** em julho de 2025 na Estácio, e este é o meu primeiro contato com a área.
+Este repositório foi criado para documentar minha trajetória aprendendo a linguagem **C**, como parte do curso de **Análise e Desenvolvimento de Sistemas** iniciado em julho de 2025 na Estácio.
 
-Aqui vou compartilhar meus primeiros códigos, aprendizados e evolução como desenvolvedor.
+---
 
-## 📄 Meu primeiro programa em C
+## 🎯 Objetivos do repositório
 
-O arquivo `olamundo.c` contém meu primeiro programa, que imprime "Olá, mundo!" no terminal.
+- Registrar meus **primeiros programas em C**
+- Compartilhar **exercícios práticos** e **mini projetos**
+- Acompanhar minha evolução como programador ao longo da faculdade
 
-### Código:
-
-```c
-#include <stdio.h>
-
-int main() {
-  printf("Olá, mundo!\n");
-  return 0;
-}
-```
+---

@@ -1,2 +1,18 @@
+# Ignora a pasta de configurações do VS Code
 .vscode/
+
+# Ignora arquivos executáveis gerados pelo compilador no Windows
 *.exe
+
+# Ignora arquivos de backup comuns (gerados por editores de texto)
+*~
+*.bak
+
+# Ignora arquivos de log ou temporários
+*.log
+*.tmp
+
+# Ignora arquivos de compilação temporária (caso use Makefile ou outros sistemas)
+*.out
+*.obj
+*.o
