@@ -3,11 +3,12 @@
 int main (){
   // Declarando as variáveis
   // e atribuindo valores
+  const int anoAtual = 2025; // Constante para o ano atual
   char nome[30] = "João Silva"; // Variável para armazenar o nome com até 30 caracteres
   int idade = 30; // Variável inteira para armazenar a idade
   float altura = 1.80; // Variável de ponto flutuante (Decimal) para armazenar a altura
   char genero = 'M'; // Variável de um caractere para armazenar o gênero
-  int anoNascimento = 2025 - idade; // Variável inteira com cálculo para o ano de nascimento utilizando a variável idade 
+  int anoNascimento = anoAtual - idade; // Cálculo do ano de nascimento
 
   // Saida de dados na tela usando printf
   printf("Nome: %s\n", nome); // %s é usado para strings
