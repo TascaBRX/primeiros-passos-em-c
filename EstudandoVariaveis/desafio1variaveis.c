@@ -14,7 +14,8 @@ int main (){
 
   // Entrada de dados do usuário
   printf("Digite seu nome: ");
-   scanf("%s", nome); // %s para string (sem espaços no nome)
+   fgets(nome, sizeof(nome), stdin); // Lê uma string da entrada padrão
+  // fgets é usado para ler strings com espaços, enquanto scanf pode parar na primeira ocorrência de espaço
 
   printf("Digite sua idade: ");
   scanf("%d", &idade); // Lê um inteiro da entrada padrão
@@ -29,7 +30,9 @@ int main (){
   anoNascimento = anoAtual - idade;
 
   // Saída de dados na tela usando printf
-  printf("\nNome: %s", nome); // %s é usado para strings
+  printf("\n===== Informações do Usuário =====\n");
+  printf("Nome: %s", nome); // %s é usado para strings (array de caracteres)
+  // Não é necessário usar \n aqui, pois fgets já inclui a nova linha
   printf("Idade: %d anos\n", idade); // %d é usado para inteiros
   printf("Altura: %.2f metros\n", altura); // %.2f é usado para ponto flutuante com duas casas decimais
   printf("Gênero: %c\n", genero); // %c é usado para um único caractere

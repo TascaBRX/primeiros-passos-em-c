@@ -6,9 +6,9 @@ int main() {
     unsigned int pontos = 150; // Variável inteira sem sinal para armazenar pontos
     short anoCurto = 2025; // Variável curta para armazenar o ano
     unsigned short dias = 365; // Variável curta sem sinal para armazenar dias
-    long populacao = 7800000000; // População mundial
-    unsigned long distancia = 384400; // km Terra-Lua
-    long long estrelas = 9000000000000; // Estimativa de estrelas na galáxia
+    long populacao = 7800000000; // Variável longa para armazenar a população mundial
+    unsigned long distancia = 384400; // variavel longa sem sinal para armazenar a distância da Terra à Lua em km
+    long long estrelas = 9000000000000; // variavel longa longa para armazenar o número de estrelas                    
 
     // Decimais
     float altura = 1.75; // Variável de ponto flutuante para armazenar a altura
