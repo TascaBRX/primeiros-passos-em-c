@@ -58,5 +58,20 @@ int main() {
     printf("char nome[] = %s\n", nome);
     // %s é usado para strings (array de caracteres)
 
+    // Tipos de especificadores de formato
+    // %d: Imprime um inteiro no formato decimal.
+    // %u: Imprime um inteiro sem sinal.
+    // %hd: Imprime um inteiro curto no formato decimal.
+    // %hu: Imprime um inteiro curto sem sinal.
+    // %ld: Imprime um inteiro longo no formato decimal.
+    // %lu: Imprime um inteiro longo sem sinal.
+    // %lld: Imprime um inteiro longo longo no formato decimal.
+    // %f: Imprime um número de ponto flutuante no formato decimal.
+    // %.2f: Imprime um número de ponto flutuante com duas casas decimais.
+    // %.10lf: Imprime um número de ponto flutuante de precisão dupla com 10 casas decimais.
+    // %.15Lf: Imprime um número de ponto flutuante de precisão estendida com 15 casas decimais.
+    // %c: Imprime um único caractere.
+    // %s: Imprime uma string (array de caracteres).
+
     return 0;
 }

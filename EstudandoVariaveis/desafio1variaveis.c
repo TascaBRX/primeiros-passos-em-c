@@ -30,7 +30,7 @@ int main (){
   anoNascimento = anoAtual - idade;
 
   // Saída de dados na tela usando printf
-  printf("\n===== Informações do Usuário =====\n");
+  printf("\n===== Informações do Usuário =====\n"); 
   printf("Nome: %s", nome); // %s é usado para strings (array de caracteres)
   // Não é necessário usar \n aqui, pois fgets já inclui a nova linha
   printf("Idade: %d anos\n", idade); // %d é usado para inteiros
