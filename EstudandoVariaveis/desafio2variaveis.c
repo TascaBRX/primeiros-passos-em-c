@@ -68,7 +68,6 @@ int main (){
   // Saída de dados na tela usando printf
   printf("\n===== Informações do Usuário =====\n"); 
   printf("Nome: %s\n", nome); // %s é usado para strings (array de caracteres)
-  // Não é necessário usar \n aqui, pois fgets já inclui a nova linha
   printf("Idade: %d anos\n", idade); // %d é usado para inteiros
   printf("Data de Nascimento: %02d/%02d/%d\n", dianasc, mesnasc, anoNascimento); // Exibe a data de nascimento formatada
   printf("idade em dias: %d dias\n", idadeDias); // Exibe a idade em dias
